@@ -11,9 +11,16 @@ To add your own snippets, select the _Atom > Snippets..._ menu option if you're 
 
 Snippets files are stored in a package's `snippets/` folder and also loaded from `~/.atom/snippets.cson`. They can be either `.json` or `.cson` file types.
 
+## Further reading
+- [Atom flight manual on Snippets](https://flight-manual.atom.io/using-atom/sections/snippets/)
+- [Atom Snippets package documentation](https://atom.io/packages/snippets)
+
 ## Dependencies
 - [Atom](https://atom.io/) by [GitHub](https://github.com/)
-- [Nunjucks](http://mozilla.github.io/nunjucks/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/) by [Mozilla](https://mozilla.github.io/)
 
 ## Licence
 Unless otherwise stated, this codebase is released under the [MIT License](https://github.com/whatterz/atom-language-nunjucks/blob/master/LICENSE). This covers both the codebase and any sample code in the documentation.
+
+## Kudos
+Thanks goes to [Olivia Hass](https://github.com/alohaas/).
