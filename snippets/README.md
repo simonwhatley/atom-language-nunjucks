@@ -21,7 +21,7 @@
 |import|import|Import loads a different template and allows you to access its exported values. Macros and top-level assignments (done with set) are exported from templates, allowing you to access them in a different template. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#import)|
 |include|include|Include pulls in other templates in place.It\'s useful when you need to share smaller chunks across several templates that already inherit other templates. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#include)|
 |macro|macro|Macro allows you to define reusable chunks of content. It is similar to a function in a programming language. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#macro)|
-|pipe|pipe|A pipe filter allows you to call a filter within the context of a variable, e.g., `{{ variable &#124; filter }}`. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#filters)|
+|pipe|pipe|A pipe filter allows you to call a filter within the context of a variable, e.g., <code>{{ variable &#124; filter }}</code>. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#filters)|
 |raw|raw|If you want to output any of the special nunjucks tags like `{{`, you can use raw and anything inside of it will be output as plain text. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#raw)|
 |set|set|Create or modify a variable. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#set)|
 |super|super|Render the contents of the parent block inside a child block by calling super. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#super)|
