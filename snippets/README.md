@@ -7,7 +7,7 @@
 |asyncAll|asyncall|asyncAll is similar to asyncEach, except it renders all the items in parallel, preserving the order of the items. This is only helpful if you are using asynchronous filters, extensions, or loaders. Otherwise you should never use this. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#asyncall)|
 |asynchEach|asyncheach|asyncEach is an asynchronous version of for. You only need this if you are using a custom template loader that is asynchronous; otherwise you will never need it. Async filters and extensions also need this, but internally loops are automatically converted into asyncEach if any async filters and extensions are used within the loop. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#asynceach)|
 |block|block|A block defines a section on the template and identifies it with a name. This is used by template inheritance. Base templates can specify blocks and child templates can override them with new content. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#block)|
-|call|call|A call block enables you to call a macro with all the text inside the tag. This is helpful if you want to pass a lot of content into a macro. The content is available inside the macro as `caller()`. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#call)|
+|call|get|A call block enables you to call a macro with all the text inside the tag. This is helpful if you want to pass a lot of content into a macro. The content is available inside the macro as `caller()`. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#call)|
 |comment|comment|You can write comments using `{#` and `#}`. Comments are completely stripped out when rendering. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#comments)|
 |elif|elif|Alternative condition in an if block. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#if)|
 |else|else|Else condition in an if block. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#if)|
@@ -25,5 +25,5 @@
 |raw|raw|If you want to output any of the special nunjucks tags like `{{`, you can use raw and anything inside of it will be output as plain text. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#raw)|
 |set|set|Create or modify a variable. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#set)|
 |super|super|Render the contents of the parent block inside a child block by calling super. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#super)|
-|variable|variable|Output a variable from the template context. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#variables)|
+|variable|var|Output a variable from the template context. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#variables)|
 |verbatim|verbatim|Verbatim has identical behaviour as raw. It is added for compatibility with the Twig verbatim tag. [Read the docs](https://mozilla.github.io/nunjucks/templating.html#verbatim)|
