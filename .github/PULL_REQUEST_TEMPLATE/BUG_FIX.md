@@ -24,7 +24,7 @@ We must be able to understand the design of your change from this description. T
 
 -->
 
-### Alternativee designs
+### Alternative designs
 
 <!-- Explain what other alternates you considered and why the proposed version was selected -->
 
