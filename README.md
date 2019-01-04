@@ -21,6 +21,18 @@ Snippets files are stored in a package's `snippets/` folder and also loaded from
 - [Atom](https://atom.io/) by [GitHub](https://github.com/)
 - [Nunjucks](https://mozilla.github.io/nunjucks/) by [Mozilla](https://mozilla.github.io/)
 
+## Support
+This repository is maintained by Simon Whatley. If you’ve got a question or need support you can:
+
+* Email [support@humanedesign.co](support@humanedesign.co) putting the repository name in the subject line.
+* [View known issues on GitHub](https://github.com/whatterz/atom-language-nunjucks/issues).
+
+## Contributing
+If you’ve got an idea or suggestion you can:
+
+* Email [contribute@humanedesign.co](contribute@humanedesign.co) putting the repository name in the subject line.
+* [Create a GitHub issue](https://github.com/whatterz/atom-language-nunjucks/issues).
+
 ## Related
 - [Nunjucks snippets for Sublime Text](https://github.com/whatterz/sublime-language-nunjucks)
 
